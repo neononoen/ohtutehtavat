@@ -39,5 +39,3 @@ class TestKassapaate(unittest.TestCase):
 
         maksukortti_mock.lataa.assert_not_called()
 
-#Kassapäätteen metodin lataa kutsu lisää maksukortille ladattavan rahamäärän käyttäen kortin metodia lataa jos ladattava summa on positiivinen
-#Kassapäätteen metodin lataa kutsu ei tee maksukortille mitään jos ladattava summa on negatiivinen
